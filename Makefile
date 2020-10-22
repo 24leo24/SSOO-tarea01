@@ -14,7 +14,7 @@ BIN=main
 #
 # Seccion 2 (NO MODIFICAR!!!)
 #
-OBJ=$(SRC:.c=.o)
+OBJ=$(src:.c=.o)
 
 all:  $(BIN)
 
