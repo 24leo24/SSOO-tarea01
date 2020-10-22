@@ -10,7 +10,7 @@ CFLAGS=-Wall -std=c17
 #LIBS=-ldl
 
 
-BIN=main
+BIN=hora
 #
 # Seccion 2 (NO MODIFICAR!!!)
 #
