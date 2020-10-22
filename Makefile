@@ -5,7 +5,7 @@
 # los requerimientos de su proyecto
 
 CC=gcc
-SRC=hora.c
+src=hora.c
 CFLAGS=-Wall -std=c17
 #LIBS=-ldl
 
