@@ -5,7 +5,7 @@
 # los requerimientos de su proyecto
 
 CC=gcc
-src=hora.c
+SRC=hora.c
 CFLAGS=-Wall -std=c17
 #LIBS=-ldl
 
@@ -14,7 +14,7 @@ BIN=hora
 #
 # Seccion 2 (NO MODIFICAR!!!)
 #
-OBJ=$(src:.c=.o)
+OBJ=$(SRC:.c=.o)
 
 all:  $(BIN)
 
