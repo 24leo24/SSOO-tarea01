@@ -18,7 +18,7 @@ char* tiempo2; // se crea variable de tipo char* con el nombre tiempo2 que sera 
 
 	tiempo2=ctime(&tiempo1); //como tiempo2 es una variable de tipo char se le puede iguala a ctime(&tiempo1) que tomara la fecha y la hora
 
-printf("señal recibida SIGUSR1: %s", tiempo2); // se mostrara un breve mensaje acompañado de la fecha y hora
+printf("señal SIGUSR1 recibida : %s", tiempo2); // se mostrara un breve mensaje acompañado de la fecha y hora
 
 
 }
